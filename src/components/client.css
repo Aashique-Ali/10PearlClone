@@ -1,0 +1,44 @@
+.clientContainer {
+      padding: 1rem 5rem;
+}
+
+.clientContainer img{
+      width: 200px;
+}
+
+.clientContainer .imgContainer{
+      margin-top: 2rem;
+      display: flex;
+      justify-content: space-between;
+}
+
+.team{
+      margin-top: 4rem;
+}
+
+.team h3{
+      font-size: 3rem;
+      font-weight: 600;
+      padding: 0 5rem;
+}
+
+.team img{
+      margin-top: 2rem;
+      width: 100%;
+      height: 400px;
+}
+@media (max-width: 768px){
+      
+      .clientContainer .imgContainer{
+            margin-top: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+      }
+
+      .team h3{
+            font-size: 2rem;
+            font-weight: 600;
+            padding: 0 1rem;
+      }
+}

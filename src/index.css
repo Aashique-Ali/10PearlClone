@@ -1,0 +1,66 @@
+@import "@dannymichel/proxima-nova";
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Proxima Nova";
+
+
+}
+
+.card{
+  width: 500px;
+}
+.card h2{
+  margin-bottom: 1rem;
+}
+.card p{
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: rgb(61, 59, 59);
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+  
+}
+
+.container div{
+  margin-bottom: 2rem;
+}
+
+.superpower {
+
+  padding: 2rem 5rem;
+}
+
+.superpower h3{
+  font-size: 3rem;
+}
+@media (max-width: 768px){
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    
+  }
+  .card{
+    width: 300px;
+  }
+  .superpower h3{
+    font-size: 1.5rem;
+  }
+  .superpower {
+
+    padding: 2rem 2rem;
+  }
+}
+
+
